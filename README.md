@@ -1,8 +1,8 @@
 # Moralis Wallet API
 
-With Moralis' Wallet API, you can harness the power of blockchain technology to create secure, efficient, and feature-rich Web3 wallets for your dApps. Whether you are building decentralized exchanges, NFT marketplaces, portfolio trackers, DAOs, or web3 gaming platforms, Moralis provides the tools you need to succeed.
+With [Moralis' Wallet API]([https://moralis.io/api/nft/](https://moralis.io/api/wallet/), you can harness the power of blockchain technology to create secure, efficient, and feature-rich Web3 wallets for your dApps. Whether you are building decentralized exchanges, NFT marketplaces, portfolio trackers, DAOs, or web3 gaming platforms, Moralis provides the tools you need to succeed.
 
- In this article, you will explore the Moralis Wallet API and how it can empower your dApp wallet development.
+In this article, you will explore the Moralis Wallet API and how it can empower your dApp wallet development.
 
 Select what you want to achieve:
 
@@ -14,35 +14,11 @@ Select what you want to achieve:
 * [Get Transfers](#get-transfers)
 * [Domains Lookups](#domain-lookups)
 
-## Native Balances
+## Quick Start to Wallet API
 
-- Access both current and historical native balances for any wallet.
-- Stay up to date with token balances, prices, and user activity.
-- Filter out spam tokens for a cleaner user experience.
-
-## NFTs
-
-- Showcase the most comprehensive wallet history across NFTs, token transfers, native transactions, and internal transactions.
-- Fetch all NFTs and collections held by a wallet, complete with enriched metadata and optimized images.
-
-## ERC20s
-
-- Look up current ERC20 token holdings, including real-time prices.
-- Calculate a wallet's USD net worth.
-
-## User experience Labels
-
-- Improve user experience by providing context for wallet activity.
-- Stay informed about your users' activity on your Dapp.
-
-## Account Abstraction Enabled
-
-Moralis' Wallet API natively supports Account Abstraction (ERC-4337). This feature enables developers to retrieve smart contract account balances, transaction details, gas fees, and much more. It's a powerful tool for interacting with smart contracts and enhancing your Dapp's capabilities.
-
-## Chains
-
-The Wallet API supports a wide range of EVM chains, including Ethereum, BNB Chain, Polygon, Avalanche, and more. You can seamlessly integrate these chains into your Dapp using the Wallet API, providing your users with a versatile and efficient experience.
-
+1. [Get an API key](https://docs.moralis.io/web3-data-api/evm/get-your-api-key)
+2. Explore the [documentation guides](https://docs.moralis.io/web3-data-api/evm/wallet-api/)
+3. Explore the [full list of endpoints](https://docs.moralis.io/web3-data-api/evm/reference)
 
 ### Get Wallet Details
 
@@ -95,3 +71,41 @@ The Wallet API supports a wide range of EVM chains, including Ethereum, BNB Chai
  [Method Documentation](https://docs.moralis.io/web3-data-api/evm/reference/wallet-api/resolve-address-to-domain)                                  | [https://deep-index.moralis.io/api/v2.2/resolve/:address/domain](https://deep-index.moralis.io/api/v2.2/resolve/:address/domain)                                                                    |
 | 14  | `resolveDomain`                  | Unstoppable Lookup By Domain           | [Method Documentation](https://docs.moralis.io/web3-data-api/evm/reference/wallet-api/resolve-domain)                                           | [https://deep-index.moralis.io/api/v2.2/resolve/:domain](https://deep-index.moralis.io/api/v2.2/resolve/:domain)                                                                                |
 | 15  | `getWalletStats`                 | Get wallet stats                       | [Method Documentation](https://docs.moralis.io/web3-data-api/evm/reference/wallet-api/get-wallet-stats)                                           | [https://deep-index.moralis.io/api/v2.2/wallets/:address/stats](https://deep-index.moralis.io/api/v2.2/wallets/:address/stats) |
+
+
+## Native Balances
+
+- Access both current and historical native balances for any wallet.
+- Stay up to date with token balances, prices, and user activity.
+- Filter out spam tokens for a cleaner user experience.
+
+## NFTs
+
+- Showcase the most comprehensive wallet history across NFTs, token transfers, native transactions, and internal transactions.
+- Fetch all NFTs and collections held by a wallet, complete with enriched metadata and optimized images.
+
+## ERC20s
+
+- Look up current ERC20 token holdings, including real-time prices.
+- Calculate a wallet's USD net worth.
+
+## User experience Labels
+
+- Improve user experience by providing context for wallet activity.
+- Stay informed about your users' activity on your Dapp.
+
+## Account Abstraction Enabled
+
+Moralis' Wallet API natively supports Account Abstraction (ERC-4337). This feature enables developers to retrieve smart contract account balances, transaction details, gas fees, and much more. It's a powerful tool for interacting with smart contracts and enhancing your Dapp's capabilities.
+
+## Chains
+
+The Wallet API supports a wide range of EVM chains, including Ethereum, BNB Chain, Polygon, Avalanche, and more. You can seamlessly integrate these chains into your Dapp using the Wallet API, providing your users with a versatile and efficient experience.
+
+## ⭐️ Star us
+
+If this Wallet API helps you - please star this project, every star makes us very happy!
+
+## 🤝 Need help?
+
+If you need help with using the Wallet API or have other questions - don't hesitate to write in our community forum and we will check asap. [Forum link](https://forum.moralis.io/). We are answering questions 24/7
