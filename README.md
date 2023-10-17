@@ -1,6 +1,6 @@
 # Moralis Wallet API
 
-With [Moralis' Wallet API]([https://moralis.io/api/nft/](https://moralis.io/api/wallet/), you can harness the power of blockchain technology to create secure, efficient, and feature-rich Web3 wallets for your dApps. Whether you are building decentralized exchanges, NFT marketplaces, portfolio trackers, DAOs, or web3 gaming platforms, Moralis provides the tools you need to succeed.
+With [Moralis' Wallet API](https://moralis.io/api/wallet/), you can harness the power of blockchain technology to create secure, efficient, and feature-rich Web3 wallets for your dApps. Whether you are building decentralized exchanges, NFT marketplaces, portfolio trackers, DAOs, or web3 gaming platforms, Moralis provides the tools you need to succeed.
 
 In this article, you will explore the Moralis Wallet API and how it can empower your dApp wallet development.
 
