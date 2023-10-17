@@ -7,7 +7,7 @@ In this article, you will explore the Moralis Wallet API and how it can empower 
 Select what you want to achieve:
 
 * [Get Wallet Details](#get-wallet-details)
-* [Get Native Balance](#get-native-balances)
+* [Get Native Balance](#get-native-balance)
 * [Get NFTs](#get-nfts)
 * [Get Tokens](#get-tokens)
 * [Get Transactions](#get-transactions)
@@ -60,7 +60,7 @@ Select what you want to achieve:
 | 9   | `getWalletNFTTransfers`          | Get NFT transfers by wallet           | [Method Documentation](https://docs.moralis.io/web3-data-api/evm/reference/wallet-api/get-wallet-nft-transfers)                                  | [https://deep-index.moralis.io/api/v2.2/:address/nft/transfers](https://deep-index.moralis.io/api/v2.2/:address/nft/transfers)                                                                         |
 | 10  | `getWalletTokenTransfers`         | Get ERC20 token transfers by wallet   | [Method Documentation](https://docs.moralis.io/web3-data-api/evm/reference/wallet-api/get-wallet-token-transfers)                                | [https://deep-index.moralis.io/api/v2.2/:address/erc20/transfers](https://deep-index.moralis.io/api/v2.2/:address/erc20/transfers)                                                                        |
 
-### Domains Lookups
+### Domain Lookups
 
 | No. | Method                           | Description                           | API Reference                                                                                                                   | URL                                                                                                                             |
 |-----|----------------------------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
